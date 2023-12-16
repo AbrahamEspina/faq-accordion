@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/AbrahamEspina/faq-accordion)
-- Live Site URL: [Add live site URL here](https://657674c1fc89901939c12828--courageous-pasca-cca77b.netlify.app/)
+- Live Site URL: [Add live site URL here](https://fascinating-praline-379f50.netlify.app/)
 
 ### Built with
 
