@@ -1,6 +1,7 @@
-import { data } from '../data';
-import { HandleClick } from '../hook/handleClick';
-import AccordionItem from './Molecules/AccordionItem';
+import CardTitle from '../Molecules/CardTitle';
+import AccordionItem from '../Molecules/AccordionItem';
+import { data } from '../../data';
+import { HandleClick } from '../../hook/handleClick';
 
 const FaqAccordion = () => {
   const { isOpen, setIsOpen } = HandleClick();
@@ -10,7 +11,8 @@ const FaqAccordion = () => {
   }
   
   return (
-    <>
+    <article className='relative top-[-180px] w-[350px] m-auto md:w-[550px] bg-white rounded-2xl shadow-2xl px-8 pt-8'>
+      <CardTitle/>
       {data.map((item, index) => (
         <AccordionItem
           key={index}
@@ -20,7 +22,7 @@ const FaqAccordion = () => {
           onClick={() => handleItemClick(index)}
         />
       ))}
-    </>
+    </article>
   )
 }
 

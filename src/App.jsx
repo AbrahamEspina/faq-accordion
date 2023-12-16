@@ -1,12 +1,14 @@
-import Container from './components/Container';
-import Header from './components/Header';
-import FaqAccordion from './components/FaqAccordion';
+import Container from './components/Organinsm/Container';
+import Header from './components/Organinsm/Header';
+import FaqAccordion from './components/Organinsm/FaqAccordion';
+import Footer from './components/Organinsm/Footer';
 
 function App() {
   return (
     <Container>
       <Header />
-      <FaqAccordion/>
+      <FaqAccordion />
+      <Footer/>
     </Container>
   )
 }
